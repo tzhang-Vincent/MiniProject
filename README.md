@@ -1,2 +1,4 @@
 # MiniProject
-EC601 Miniroject in BU
+EC601 Miniproject in BU
+
+Added twitter handle examples to folder twitter handles in twitter API folder
