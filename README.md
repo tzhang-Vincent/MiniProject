@@ -2,8 +2,8 @@ MiniProject
 ===
 
 Contributer:
-		Zhang Ting              ztvince@bu.edu
-		Haik Harry Martirosyan  Haikm@bu.edu
+Zhang Ting              ztvince@bu.edu <br>
+Haik Harry Martirosyan  Haikm@bu.edu
 
 User Stories
 ---
