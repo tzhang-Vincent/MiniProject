@@ -7,14 +7,14 @@ Haik Harry Martirosyan  Haikm@bu.edu
 
 ##User Stories
 
-###Travel
+Travel
 <br>I, as an avid backpacker, would like to use information from popular twitter handles to gain an insight on what countries have beautiful landscapes for me to backpack through for a set amount of time. 
 
 <br>I, as an amateur photographer, want to use twitter to determine from popular twitter handles to gain an insight on what photography destinations are highly visited/liked and vice versa to help me build a portfolio. 
 
 <br>I, as a new traveler, want to use twitter accounts in regards to finding the best countries to visit for a new traveler, including low crime rates and ease of traversing the local cities.
 <br>
-###Cooking
+Cooking
 <br>I, as an amateur chef youtuber, want to learn which food dishes are the most popular for me to make as well so that my channel can become more popular
 
 I, as a terrible cook who burns everything, wants to find the most liked beginner tutorial videos so that I don’t waste my time on bad tutorials or more advanced ones
