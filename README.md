@@ -35,10 +35,10 @@ Haik Harry Martirosyan  Haikm@bu.edu
 <br> I, as a twitter user who doesn’t want to view the negative tweets from others, I would like the product to help me screen out only the tweets with positive or neutral messages.
 <br>
 <br>
-## Minimum Viable Product
+### Minimum Viable Product
 <br>
 (We mainly focus on the travelling user story)<br>
-<br>We would like to analyze popular twitter feeds in determining popular travel destinations and public positive or negative reactions to them. We will give out the lists containing top 5 and bottom 5 destinations as output results.
+We would like to analyze popular twitter feeds in determining popular travel destinations and public positive or negative reactions to them. We will give out the lists containing top 5 and bottom 5 destinations as output results.
 <br>
 ## Minimum Viable Product
 <br>
@@ -49,7 +49,7 @@ Haik Harry Martirosyan  Haikm@bu.edu
 
 Here comes our architecture: <br>
 
-
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Flowchart.jpg)
 
 
 <br>
