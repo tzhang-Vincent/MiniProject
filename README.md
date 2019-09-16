@@ -41,9 +41,9 @@ Haik Harry Martirosyan  Haikm@bu.edu
 <br>We would like to analyze popular twitter feeds in determining popular travel destinations and public positive or negative reactions to them. We will give out the lists containing top 5 and bottom 5 destinations as output results.
 <br>
 ## Architecture
-<br>
+
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Flowchart.jpg)
-<br>
+
 1. Want to grab data from twitter.
 <br>
 2. Need to then store it in a some type of large storage product
