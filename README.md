@@ -40,7 +40,6 @@ Haik Harry Martirosyan  Haikm@bu.edu
 (We mainly focus on the travelling user story)<br>
 <br>We would like to analyze popular twitter feeds in determining popular travel destinations and public positive or negative reactions to them. We will give out the lists containing top 5 and bottom 5 destinations as output results.
 <br>
-<br>
 ## Minimum Viable Product
 <br>
 (We mainly focus on the travelling user story)<br>
