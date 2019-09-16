@@ -56,10 +56,10 @@ Here comes our architecture: <br>
 3. We will then copy the initial data stored so as to maintain an original version as well as a version to analyze
 <br>
 4. Run through software to analyze text and image data from tweets
-  * Use various image datasets from popular destinations to help train system
-  * Text-determine reactions whether positive or negative
-  * Images -output location and name of site
-  * Store in system and assign either a favorable or unfavorable reaction to each picture depending on majority of reactions 
+*  Use various image datasets from popular destinations to help train system
+*  Text-determine reactions whether positive or negative
+*  Images -output location and name of site
+*  Store in system and assign either a favorable or unfavorable reaction to each picture depending on majority of reactions 
 <br>
 5. Output list of most liked and least liked images with assigned locations
 <br>
