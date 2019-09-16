@@ -45,6 +45,7 @@ Haik Harry Martirosyan  Haikm@bu.edu
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Flowchart.jpg)
 
+<br>
 1. Want to grab data from twitter.
 <br>
 2. Need to then store it in a some type of large storage product
