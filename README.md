@@ -1,9 +1,10 @@
-# MiniProject
-
+MiniProject
+===
 
 Added twitter handle examples to folder twitter handles in twitter API folder
 
 User Stories
+---
 Travel
 	I, as an avid backpacker, would like to use information from popular twitter handles to gain an insight on what countries have beautiful landscapes for me to backpack through for a set amount of time. 
 
