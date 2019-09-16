@@ -57,8 +57,8 @@ Here comes our architecture: <br>
 <br>
 4. Run through software to analyze text and image data from tweets<br>
 * a. Use various image datasets from popular destinations to help train system<br>
-> b. Text-determine reactions whether positive or negative<br>
-> c. Images -output location and name of site<br>
+>> b. Text-determine reactions whether positive or negative<br>
+>>>> c. Images -output location and name of site<br>
 > d. Store in system and assign either a favorable or unfavorable reaction to each picture depending on majority of reactions<br>
 <br>
 5. Output list of most liked and least liked images with assigned locations
