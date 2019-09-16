@@ -42,7 +42,7 @@ Haik Harry Martirosyan  Haikm@bu.edu
 <br>
 ## Architecture
 <br>
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/Flowchart.jpg)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Flowchart.jpg)
 <br>
 1. Want to grab data from twitter.
 <br>
