@@ -40,3 +40,22 @@ Haik Harry Martirosyan  Haikm@bu.edu
 (We mainly focus on the travelling user story)<br>
 <br>We would like to analyze popular twitter feeds in determining popular travel destinations and public positive or negative reactions to them. We will give out the lists containing top 5 and bottom 5 destinations as output results.
 <br>
+## Architecture
+<br>
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/Flowchart.jpg)
+<br>
+1. Want to grab data from twitter.
+<br>
+2. Need to then store it in a some type of large storage product
+<br>
+3. We will then copy the initial data stored so as to maintain an original version as well as a version to analyze
+<br>
+4. Run through software to analyze text and image data from tweets
+Use various image datasets from popular destinations to help train system
+Text-determine reactions whether positive or negative
+Images -output location and name of site
+Store in system and assign either a favorable or unfavorable reaction to each picture 
+depending on majority of reactions 
+<br>
+5. Output list of most liked and least liked images with assigned locations
+<br>
