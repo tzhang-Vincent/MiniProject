@@ -50,7 +50,7 @@ Haik Harry Martirosyan  Haikm@bu.edu
 Here comes our architecture: <br>
 
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Flowchart.jpg)
+
 
 <br>
 1. Want to grab data from twitter.
