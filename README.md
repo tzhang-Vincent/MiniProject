@@ -43,7 +43,7 @@ Haik Harry Martirosyan  Haikm@bu.edu
 <br>
 # Architecture
 <br>
-
+Here comes our architecture: <br>
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Flowchart.jpg)
 
 <br>
