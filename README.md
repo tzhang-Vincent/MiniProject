@@ -1,7 +1,9 @@
 MiniProject
 ===
 
-Added twitter handle examples to folder twitter handles in twitter API folder
+Contributer:
+		Zhang Ting              ztvince@bu.edu
+		Haik Harry Martirosyan  Haikm@bu.edu
 
 User Stories
 ---
