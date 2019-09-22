@@ -51,7 +51,7 @@ Here comes our architecture: <br>
 <br>
 2. Need to then store it in a some type of large storage product
 <br>
-3. We will then copy the initial data stored so as to maintain an original version as well as a version to analyze
+3. Will then copy the initial data stored so as to maintain an original version as well as a version to analyze
 <br>
 4. Run through software to analyze text and image data from tweets<br>
 a. Use various image datasets from popular destinations to help train system<br>
