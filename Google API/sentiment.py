@@ -20,4 +20,10 @@ def sentiment_analysis(text):
 	result=language_client.analyze_sentiment(document)
 	score = result.document_sentiment.score
 	magnitude = result.document_sentiment.magnitude
+	print("score is ",score)
+	print("magnitude is ",magnitude)
 	return score,magnitude
+
+
+if __name__ == '__main__':
+	sentiment_analysis("Yesterday, I took a train trip from Boston to the New York City. It is really a good experience for my vacation and I enjoy it. During my trip, I took some photos inside the train and recorded lots of amazing scenes")
