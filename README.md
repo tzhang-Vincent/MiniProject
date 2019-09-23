@@ -3,7 +3,7 @@
 
 Contributer: <br>
 Zhang Ting              ztvince@bu.edu <br>
-Haik Harry Martirosyan  Haikm@bu.edu
+Haik Harry Martirosyan  haikm@bu.edu
 
 ## User Stories
 
