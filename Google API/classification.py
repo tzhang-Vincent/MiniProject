@@ -2,7 +2,7 @@ import argparse
 import io
 import json
 import os
-
+import re
 from google.cloud import language
 import numpy
 import six
@@ -30,6 +30,19 @@ def classify(text):
         print(u'{:<16}: {}'.format('confidence', category.confidence))
 
     return result
+
+def split_txt(inFile,des_name):
+    with io.open(inFile,'r',encoding='gb18030') as f:
+        text=f.read()
+    a=re.split('\n',text)
+    print(a)
+    n=0
+    for i in a:
+        n+=1
+        with open('{}/{}{}.txt'.format(des_name,des_name,n),'w', encoding='UTF-8') as f:
+            f.write(i)
+
+
 
 def FileForm(path, index_file):
     # Classify each text file in a path folder. Then dump the results into index_file.
@@ -104,9 +117,10 @@ def similarity(categories1, categories2):
     return dot / (norm1 * norm2)
 
 if __name__ == '__main__':
-    classify("Yesterday, I took a train trip from Boston to the New York City. It is really a good experience for my vacation and I enjoy it. During my trip, I took some photos inside the train and recorded lots of amazing scenes")
+    # classify("Yesterday, I took a train trip from Boston to the New York City. It is really a good experience for my vacation and I enjoy it. During my trip, I took some photos inside the train and recorded lots of amazing scenes")
     # classify("Los Angeles is good place and the people there are friendly. The Disneyand is interesting. The Universal Studios is also fantastic.")
     # classify("We climbed mountain there and participated in the skiing activities. I don't like to stay in such a cold place for a long time although the scenes there are very impressive. When I took photos at the viewing platform on a high mountain, I felt too cold to firmly grasp my camera. It is a good place to travel but not a good place to live in.")
-    FileForm("C:/Users/Vincent/Desktop/601/TestText","index")
-    query_category("index","/Travel/Tourists Destinations")
+    # FileForm("C:/Users/Vincent/Desktop/601/TestText","index")
+    # query_category("index","/Travel/Tourists Destinations")
+    split_txt("first_test.txt","abcd")
 
