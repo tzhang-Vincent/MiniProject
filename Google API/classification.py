@@ -6,6 +6,7 @@ import re
 from google.cloud import language
 import numpy
 import six
+import sentiment
 
 def classify(text):
     # Classify the input text with corresponding label
@@ -23,24 +24,32 @@ def classify(text):
     for category in categories:
         result[category.name] = category.confidence
 
-    print("Test Text is: ",text)
-    for category in categories:
-        print(u'=' * 10)
-        print(u'{:<16}: {}'.format('category', category.name))
-        print(u'{:<16}: {}'.format('confidence', category.confidence))
+    # print("Test Text is: ",text)
+    # for category in categories:
+    #     print(u'=' * 10)
+    #     print(u'{:<16}: {}'.format('category', category.name))
+    #     print(u'{:<16}: {}'.format('confidence', category.confidence))
 
     return result
 
 def split_txt(inFile,des_name):
     with io.open(inFile,'r',encoding='gb18030') as f:
+    # with io.open(inFile,'r',encoding='UTF-8') as f:
         text=f.read()
     a=re.split('\n',text)
     print(a)
     n=0
+    score=[]
+    sum=0
+    l=len(a)
     for i in a:
+        score.append(sentiment.sentiment_analysis(i))
+        sum=sum+sentiment.sentiment_analysis(i)
         n+=1
-        with open('{}/{}{}.txt'.format(des_name,des_name,n),'w', encoding='UTF-8') as f:
+        with open('C:/Users/Vincent/Desktop/MiniProject/Google API/data/{}/{}{}.txt'.format(des_name,des_name,n),'w', encoding='UTF-8') as f:
             f.write(i)
+    avg=sum/l
+    return avg
 
 
 
@@ -55,12 +64,12 @@ def FileForm(path, index_file):
 
             result[filename] = categories
 
-    with io.open(index_file, 'w', encoding='utf-8') as f:
+    with io.open('C:/Users/Vincent/Desktop/MiniProject/Google API/score/{}'.format(index_file), 'w', encoding='utf-8') as f:
         f.write(json.dumps(result, ensure_ascii=False))
     return result
 
 
-def query_category(index_file, category_string, n_top=5):
+def query_category(index_file, category_string, n_top):
     #find the most 5 txt texts that are similar to the label
 
     with io.open(index_file, 'r') as f:
