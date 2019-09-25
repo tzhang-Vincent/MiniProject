@@ -21,8 +21,8 @@ def sentiment_analysis(text):
 	score = result.document_sentiment.score
 	magnitude = result.document_sentiment.magnitude
 	print("score is ",score)
-	print("magnitude is ",magnitude)
-	return score,magnitude
+	# print("magnitude is ",magnitude)
+	return score
 
 
 if __name__ == '__main__':
