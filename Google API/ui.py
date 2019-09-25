@@ -92,8 +92,13 @@ class MyMainForm(QMainWindow, Ui_Form):
             score_list.append(classification.split_txt("C:/Users/Vincent/Desktop/MiniProject/Google API/tweets/{}.txt".format(name),"{}".format(name)))
         score_list.sort()
         sss=""
-        for s in score_list:
-            sss=sss+'\n'+str(s)
+        if self.choice=="Top":
+            for s in score_list[:top_num]:
+                sss=sss+'\n'+str(s)
+        if self.choice=="Bottom":
+            for s in score_list[-top_num:]:
+                sss=sss+'\n'+str(s)
+
         self.display.setText(sss)
 
 if __name__ == "__main__":
