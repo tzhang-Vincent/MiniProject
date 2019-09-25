@@ -3,7 +3,7 @@
 
 Contributer: <br>
 Zhang Ting              ztvince@bu.edu <br>
-Haik Harry Martirosyan  Haikm@bu.edu
+Haik Harry Martirosyan  haikm@bu.edu
 
 ## User Stories
 
@@ -43,7 +43,7 @@ We would like to analyze popular twitter feeds in determining popular travel des
 
 Here comes our architecture: <br>
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Flowchart.jpg)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/diagram.jpg)
 
 
 <br>
@@ -51,7 +51,7 @@ Here comes our architecture: <br>
 <br>
 2. Need to then store it in a some type of large storage product
 <br>
-3. We will then copy the initial data stored so as to maintain an original version as well as a version to analyze
+3. Will then copy the initial data stored so as to maintain an original version as well as a version to analyze
 <br>
 4. Run through software to analyze text and image data from tweets<br>
 a. Use various image datasets from popular destinations to help train system<br>
