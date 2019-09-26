@@ -69,3 +69,10 @@ Our system can be mainly divided into three parts: Twitter API part, Google API 
 
 ### Twitter API
 In the folder "Twitter API", we have our tweets_pull_V2.py as our twitter tool to pull the tweets about specific destinations from twitter handles down to our local drive. Each txt file stored in the local drive corresponds to a specific tourists destination.
+
+### Google API
+After setting the Google NLP API path in the local shell, we are able to take advantage of the API's sentiment function to analyze the sentiment score and magnitude of each tweet line. By splitting the single txt file into several single lines by '\n', the API will help us analyze each single line's emotion and gives out a score and magnitude for them. Then using some math formula and calculation, we could have final score for each tourist destination. After analyzing all of them, we will sort the score_list which contains the final score by their primary key "score" and return the top N or bottom N results. The number N depends on the UI input.
+
+### UI Connection Part
+Our system also has a User Interface which can make our product more user friendly.
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui1.png)
