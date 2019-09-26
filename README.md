@@ -117,8 +117,6 @@ We use the twitter API pull about 41 txt files about 41 travelling destinations 
 Then we do the process of splitting the text, analyzing their sentiment, sorting the list and calculated the results which takes about 15 minutes.<br>
 Our final tetsing results for top 5 / bottom 5 travelling destinations are shown as below:
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui3.png)
-
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/top-result.png)
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/bottom-result.png)
