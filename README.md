@@ -45,7 +45,7 @@ We would like to analyze popular twitter feeds in determining popular travel des
 
 Here comes our architecture: <br>
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/diagram.jpg)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/system.jpg)
 
 
 <br>
