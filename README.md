@@ -45,7 +45,7 @@ We would like to analyze popular twitter feeds in determining popular travel des
 
 Here comes our architecture: <br>
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/system.jpg)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/system.jpg)
 
 
 <br>
@@ -76,47 +76,47 @@ After setting the Google NLP API path in the local shell, we are able to take ad
 ### UI Connection Part
 1. Our system also has a User Interface which can make our product more user friendly.
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui1.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/ui1.png)
 
 2. Our UI has several parts: N input, Search Label, Choice for top or bottom, and the final result text box on the right side
 After clicking N input part, user could input the N number by himself.
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui2.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/ui2.png)
 
 3. After clicking Label, user could choose specific label for tweets. But our project only support the label "/Travel/Tourists Destinations"
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui3.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/ui3.png)
 
 4. After clicking choice label, user could choose top N or bottom N to show in the text box right side.
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui4.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/ui4.png)
 
 5. After finishing filling all the input parts in the UI, user could just simply click the "Start" button to start the product processing.
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui5.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/ui5.png)
 
 6.The tweets combination about a specific destination is stored in local folder "City_tweet_txt".
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/local-tweet.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/local-tweet.png)
 
 Each single line of a specific destination txt will be stored as a seperate txt file in the local folder "data/{destination}"
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/single_local.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/single_local.png)
 
 7. After the process, the result will show on the text box on the right side.<br>
 eg. Top 5:
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/top-result.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/top-result.png)
 
 Bottom 5:
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/bottom-result.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/bottom-result.png)
 
 ## Test
 We use the twitter API pull about 41 txt files about 41 travelling destinations and store them in local drive. Each txt file has about 20-70 single lines seperating by '\n'. And it takes about 1 minute.<br>
 Then we do the process of splitting the text, analyzing their sentiment, sorting the list and calculated the results which takes about 15 minutes.<br>
 Our final tetsing results for top 5 / bottom 5 travelling destinations are shown as below:
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/top-result.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/top-result.png)
 
-![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/bottom-result.png)
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/bottom-result.png)
