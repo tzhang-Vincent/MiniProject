@@ -111,3 +111,12 @@ eg. Top 5:
 Bottom 5:
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/bottom-result.png)
+
+## Test
+We use the twitter API pull about 41 txt files about 41 travelling destinations and store them in local drive. Each txt file has about 20-70 single lines seperating by '\n'. And it takes about 1 minute.<br>
+Then we do the process of splitting the text, analyzing their sentiment, sorting the list and calculated the results which takes about 15 minutes.<br>
+Our final tetsing results for top 5 / bottom 5 travelling destinations are shown as below:
+
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/top-result.png)
+
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/bottom-result.png)
