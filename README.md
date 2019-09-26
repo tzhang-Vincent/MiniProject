@@ -62,3 +62,10 @@ c. Images -output location and name of site<br>
 d. Store in system and assign either a favorable or unfavorable reaction to each picture depending on majority of reactions<br>
 5. Output list of most liked and least liked images with assigned locations
 <br>
+
+## How does the system work exactly?
+
+Our system can be mainly divided into three parts: Twitter API part, Google API part and the connection & UI part.
+
+### Twitter API
+In the folder "Twitter API", we have our tweets_pull_V2.py as our twitter tool to pull the tweets about specific destinations from twitter handles down to our local drive. Each txt file stored in the local drive corresponds to a specific tourists destination.
