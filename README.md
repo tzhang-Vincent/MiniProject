@@ -74,16 +74,32 @@ In the folder "Twitter API", we have our tweets_pull_V2.py as our twitter tool t
 After setting the Google NLP API path in the local shell, we are able to take advantage of the API's sentiment function to analyze the sentiment score and magnitude of each tweet line. By splitting the single txt file into several single lines by '\n', the API will help us analyze each single line's emotion and gives out a score and magnitude for them. Then using some math formula and calculation, we could have final score for each tourist destination. After analyzing all of them, we will sort the score_list which contains the final score by their primary key "score" and return the top N or bottom N results. The number N depends on the UI input.
 
 ### UI Connection Part
-Our system also has a User Interface which can make our product more user friendly.
+1. Our system also has a User Interface which can make our product more user friendly.
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui1.png)
 
-Our UI has several parts: N input, Search Label, Choice for top or bottom, and the final result text box on the right side
+2. Our UI has several parts: N input, Search Label, Choice for top or bottom, and the final result text box on the right side
 After clicking N input part, user could input the N number by himself.
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui2.png)
 
-After clicking Label, user could choose specific label for tweets. But our project only support the label "/Travel/Tourists Destinations"
+3. After clicking Label, user could choose specific label for tweets. But our project only support the label "/Travel/Tourists Destinations"
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui3.png)
 
+4. After clicking choice label, user could choose top N or bottom N to show in the text box right side.
+
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui4.png)
+
+5. After finishing filling all the input parts in the UI, user could just simply click the "Start" button to start the product processing.
+
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui5.png)
+
+6. After the process, the result will show on the text box on the right side.<br>
+eg. Top 5:
+
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/top-result.png)
+
+Bottom 5:
+
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/bottom-result.png)
