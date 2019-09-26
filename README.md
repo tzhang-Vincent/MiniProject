@@ -76,3 +76,9 @@ After setting the Google NLP API path in the local shell, we are able to take ad
 ### UI Connection Part
 Our system also has a User Interface which can make our product more user friendly.
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui1.png)
+Our UI has several parts: N input, Search Label, Choice for top or bottom, and the final result text box on the right side
+After clicking N input part, user could input the N number by himself.
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui2.png)
+After clicking Label, user could choose specific label for tweets. But our project only support the label "/Travel/Tourists Destination"
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui3.png)
+
