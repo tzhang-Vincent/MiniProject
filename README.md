@@ -5,6 +5,8 @@ Contributer: <br>
 Zhang Ting              ztvince@bu.edu <br>
 Haik Harry Martirosyan  haikm@bu.edu
 
+Goal is to create a sentiment analysis of the most visited cities in the world and rank them with the highest and lowest sentiment.
+
 ## User Stories
 
 ### Travel
@@ -39,7 +41,7 @@ Haik Harry Martirosyan  haikm@bu.edu
 
 (We mainly focus on the travelling user story)<br>
 We would like to analyze popular twitter feeds in determining popular travel destinations and public positive or negative reactions to them. We will give out the lists containing top 5 and bottom 5 destinations as output results.
-## Aichitecture
+## Architecture
 
 Here comes our architecture: <br>
 
@@ -54,7 +56,7 @@ Here comes our architecture: <br>
 3. Will then copy the initial data stored so as to maintain an original version as well as a version to analyze
 <br>
 4. Run through software to analyze text and image data from tweets<br>
-a. Use various image datasets from popular destinations to help train system<br>
+a. Use various image and text datasets from popular destinations to help train system<br>
 b. Text-determine reactions whether positive or negative<br>
 c. Images -output location and name of site<br>
 d. Store in system and assign either a favorable or unfavorable reaction to each picture depending on majority of reactions<br>
