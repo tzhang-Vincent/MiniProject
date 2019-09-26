@@ -95,7 +95,15 @@ After clicking N input part, user could input the N number by himself.
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/ui5.png)
 
-6. After the process, the result will show on the text box on the right side.<br>
+6.The tweets combination about a specific destination is stored in local folder "City_tweet_txt".
+
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/local-tweet.png)
+
+Each single line of a specific destination txt will be stored as a seperate txt file in the local folder "data/{destination}"
+
+![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/single_local.png)
+
+7. After the process, the result will show on the text box on the right side.<br>
 eg. Top 5:
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/top-result.png)
