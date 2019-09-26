@@ -1,0 +1,1 @@
+['90°+ days at various cities in 2019 (not including today):\n\nPhoenix: 138\nLas Vegas: 121\nOrlando: 111\nMiami: 105\nDallas/Ft Worth: 100\nAtlanta: 80\nOKC:  63\nWash DC:  59\nIndianapolis: 22\nBoston: 15\nChicago:  14\nNYC:  14\nMinneapolis: 4\nSeattle: 2']

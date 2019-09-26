@@ -7,6 +7,7 @@ from google.cloud import language
 import numpy
 import six
 import sentiment
+import os
 
 def classify(text):
     # Classify the input text with corresponding label
@@ -33,21 +34,24 @@ def classify(text):
     return result
 
 def split_txt(inFile,des_name):
-    with io.open(inFile,'r',encoding='gb18030') as f:
-    # with io.open(inFile,'r',encoding='UTF-8') as f:
+    # with io.open(inFile,'r',encoding='gb18030') as f:
+    with io.open(inFile,'r',encoding='UTF-8') as f:
         text=f.read()
     a=re.split('\n',text)
     print(a)
     n=0
     score=[]
     sum=0
-    l=len(a)
     for i in a:
-        score.append(sentiment.sentiment_analysis(i))
-        sum=sum+sentiment.sentiment_analysis(i)
+        tmp_score=sentiment.sentiment_analysis(i)
+        score.append(tmp_score)
+        sum=sum+tmp_score
         n+=1
+        if not os.path.exists("C:/Users/Vincent/Desktop/MiniProject/Google API/data/{}".format(des_name)):
+            os.mkdir("C:/Users/Vincent/Desktop/MiniProject/Google API/data/{}".format(des_name))
         with open('C:/Users/Vincent/Desktop/MiniProject/Google API/data/{}/{}{}.txt'.format(des_name,des_name,n),'w', encoding='UTF-8') as f:
             f.write(i)
+    l=len(score)    
     avg=sum/l
     return avg
 
