@@ -20,4 +20,5 @@ Using these two functions of Google API, we could find the tweets related to tra
 
 
 Note Reference: The functions:"classify()", "query_category()", "split_labels()", "similarity()" are referenced by Google NLP API document
+<br>
 https://cloud.google.com/natural-language/docs/classify-text-tutorial?hl=zh-cn#query_with_text
