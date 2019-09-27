@@ -7,7 +7,7 @@ Google API has two main functions to help us develop our MVP:<br>
 The example result is like: <br>
 
 
-![Top 3](https://github.com/tzhang-Vincent/MiniProject/blob/master/Google%20API/top3.png)
+![Top 5](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/top-result.png)
 
 <br>
 
@@ -15,5 +15,9 @@ The example result is like: <br>
 <br>
 
 
-Using these two functions of Google API, we could find the tweets related to travelling accurately and counr their numbers of occurring. Also, we could take advantage of the sentiment analysis to divide the results into two lists: top 5 popular and bottom 5 popular destinations.
+Using these two functions of Google API, we could find the tweets related to travelling accurately and count their numbers of occurring. Also, we could take advantage of the sentiment analysis to divide the results into two lists: top 5 popular and bottom 5 popular destinations.
 <br>
+
+
+Note Reference: The functions:"classify()", "query_category()", "split_labels()", "similarity()" are referenced by Google NLP API document
+https://cloud.google.com/natural-language/docs/classify-text-tutorial?hl=zh-cn#query_with_text
