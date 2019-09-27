@@ -122,11 +122,11 @@ Our final tetsing results for top 5 / bottom 5 travelling destinations are shown
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/bottom-result.png)
 
 
-## 
-speed
-filter
-limitiations
+## FINAL THOUGHTS
+
+Both group members enjoyed researching APIs and how useful they can be for developing a product. Provides insight on how startups can create products at a fast rate. Also enjoyed handling the input and output system of the APIs
+
+Things that can be improved upon are through the filtering process of twitter messages. There is an incredible amount of spam and useless data spread throughout Twitter so having a more in depth filtering process would be beneficial. Furthermore, while we have generated a UI system for ease of use, the list of location choices were manually chosen for the user. A more complete package would involve having the user input their own keyword to return an analysis rather than just limiting to our pre-set choices. Furthermore, this would provide the program a much broader scope as it will no longer be limited to locations, but can be applied to essentially any topic.
 
 
-liked: learned about api, handling the i/o
-avoid: making broad filter; more labels, more interface through UI, make more automated, handle vs keyword, so much spam
+
