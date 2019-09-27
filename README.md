@@ -120,3 +120,13 @@ Our final tetsing results for top 5 / bottom 5 travelling destinations are shown
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/top-result.png)
 
 ![Flowchart](https://github.com/tzhang-Vincent/MiniProject/blob/master/Images/bottom-result.png)
+
+
+## 
+speed
+filter
+limitiations
+
+
+liked: learned about api, handling the i/o
+avoid: making broad filter; more labels, more interface through UI, make more automated, handle vs keyword, so much spam
