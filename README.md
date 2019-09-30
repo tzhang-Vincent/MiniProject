@@ -5,9 +5,11 @@ Contributer: <br>
 Zhang Ting              ztvince@bu.edu <br>
 Haik Harry Martirosyan  haikm@bu.edu
 
-Work Distribution:<br>
+## Work Distribution:
 Zhang Ting: Google NLP API, UI part implementation, System Test, README writting, Local txt file IO operations<br>
 Haik Harry Martirosyan: Twitter API, tweets files processing, README writting<br>
+
+<br>
 Goal is to create a sentiment analysis of the most visited cities in the world and rank them with the highest and lowest sentiment.
 
 ## User Stories
